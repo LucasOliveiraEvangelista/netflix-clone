@@ -1,0 +1,43 @@
+.row-container{
+    margin-left: 20px;
+    color: #fff;
+}
+.row-cards{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    z-index: 0;
+}
+.row-cards::-webkit-scrollbar{
+    display: none;
+}
+.movie-card{
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    /* transition: 0.3s ease-in-out; */
+    transition: transform 450ms;
+    margin: 4px;
+    box-shadow: 9px 4px 5px -3px #00000090;
+}
+.movie-card:hover{
+    transform: scale(1.06);
+    margin: 3px;
+    box-shadow:-1px 0px 10px 8px #00000095
+}
+.movie-card-large{
+    object-fit: contain;
+    width: 100%;
+    max-width: 200px;
+    max-height: 400px;
+    /* transition: 0.3s ease-in-out; */
+    transition: transform 450ms;
+    margin: 2px;
+    box-shadow: 9px 4px 5px -3px #00000090;
+}
+.movie-card-large:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 0px 12px 6px #00000095
+}
