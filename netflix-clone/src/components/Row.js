@@ -14,7 +14,8 @@ function Row({title, path, isLarge}) {
         }else {
         setTrailerUrl("https://www.youtube.com/watch?v=m2JsKyhtlG4");
         console.log("foi");
-        }
+    
+    }
     
 }
     const [movies, setMovies] = React.useState([]);
