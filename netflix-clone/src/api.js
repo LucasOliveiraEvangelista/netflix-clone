@@ -1,4 +1,4 @@
-const API_KEY = "e4869f9f4de269eb7d756a22ab607546";
+// const API_KEY = "e4869f9f4de269eb7d756a22ab607546";
 
 const categories =[
     {
@@ -16,6 +16,30 @@ const categories =[
     {
         name: "topRated",
         title: "Populares",
+        path: "/movie/top_rated?api_key=e4869f9f4de269eb7d756a22ab607546&language=pt-BR",
+        isLarge: false,
+    },
+    {
+        name: "comedians",
+        title: "Comédia",
+        path: "/movie/top_rated?api_key=e4869f9f4de269eb7d756a22ab607546&language=pt-BR",
+        isLarge: false,
+    },
+    {
+        name: "drama",
+        title: "Drama",
+        path: "/movie/top_rated?api_key=e4869f9f4de269eb7d756a22ab607546&language=pt-BR",
+        isLarge: false,
+    },
+    {
+        name: "animation",
+        title: "Animação",
+        path: "/movie/top_rated?api_key=e4869f9f4de269eb7d756a22ab607546&language=pt-BR",
+        isLarge: false,
+    },
+    {
+        name: "Terror",
+        title: "Terror",
         path: "/movie/top_rated?api_key=e4869f9f4de269eb7d756a22ab607546&language=pt-BR",
         isLarge: false,
     },
